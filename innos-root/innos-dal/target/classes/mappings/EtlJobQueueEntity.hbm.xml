@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping"
+        xsi:schemaLocation="http://www.hibernate.org/xsd/hibernate-mapping http://www.hibernate.org/xsd/hibernate-mapping/hibernate-mapping-4.0.xsd" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <class name="com.innos.model.core.EtlJobQueueEntity" table="etl_job_queue" schema="" catalog="innosdb">
+        <id name="id" column="ID"/>
+        <property name="runDtm" column="RUN_DTM"/>
+        <property name="endDtm" column="END_DTM"/>
+        <property name="running" column="RUNNING"/>
+        <property name="assigned" column="ASSIGNED"/>
+        <property name="complete" column="COMPLETE"/>
+    </class>
+</hibernate-mapping>

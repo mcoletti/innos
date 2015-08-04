@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="INNOS" product="MySQL" version="5.5.29-0ubuntu0.12.04.2" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )" uuid="c2fdbb84-d267-46a2-83d1-53669c160817">
+    <extra-name-characters>#@</extra-name-characters>
+    <identifier-quote-string>`</identifier-quote-string>
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://192.168.1.254:3306/INNOSDB</jdbc-url>
+    <user-name>root</user-name>
+    <user-password>dfc7dfc5dfdfdfd9dfcfdfccdfd8df99df99dfc1</user-password>
+    <schema-pattern>innosdb.*</schema-pattern>
+    <default-schemas>innosdb.*</default-schemas>
+    <default-dialect>MySQL</default-dialect>
+    <libraries>
+      <library>
+        <url>jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>

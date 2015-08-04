@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping"
+        xsi:schemaLocation="http://www.hibernate.org/xsd/hibernate-mapping http://www.hibernate.org/xsd/hibernate-mapping/hibernate-mapping-4.0.xsd" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <class name="com.innos.model.core.AuthoritiesEntity" table="authorities" schema="" catalog="innosdb">
+        <id name="id" column="ID"/>
+        <property name="authority" column="AUTHORITY"/>
+    </class>
+</hibernate-mapping>

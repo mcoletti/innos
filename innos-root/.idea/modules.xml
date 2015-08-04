@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/innos-cache/innos-cache.iml" filepath="$PROJECT_DIR$/innos-cache/innos-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/innos-core/innos-core.iml" filepath="$PROJECT_DIR$/innos-core/innos-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/innos-dal/innos-dal.iml" filepath="$PROJECT_DIR$/innos-dal/innos-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/innos-model/innos-model.iml" filepath="$PROJECT_DIR$/innos-model/innos-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/innos-root.iml" filepath="$PROJECT_DIR$/innos-root.iml" />
+    </modules>
+  </component>
+</project>
+
